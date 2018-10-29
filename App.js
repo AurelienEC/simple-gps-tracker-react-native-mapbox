@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { StyleSheet, View, Text, Button } from 'react-native';
 import Mapbox from '@mapbox/react-native-mapbox-gl';
-import API_TOKEN from '../Helpers/token.js'
+import API_TOKEN from './Helpers/token.js'
 Mapbox.setAccessToken(API_TOKEN);
 
 
@@ -110,14 +110,14 @@ export default class App extends Component<{}> {
 
   render() {
     let place1 = {
-      "name" : "Oficina Ceibos JW2019",
-      "lat" : -2.159997,
-      "lng" : -79.947552
+      "name" : "Eiffel Tower",
+      "lat" : 48.858053,
+      "lng" : 2.294289
     }
     let place2 = {
-      "name" : "Oficina Urdenor 2 JW2019",
-      "lat" : -2.1501751,
-      "lng" : -79.9076713
+      "name" : "Mitad del Mundo",
+      "lat" : -78.453498186,
+      "lng" : -0.001166662
     }
     return (
       <View style={styles.container}>
