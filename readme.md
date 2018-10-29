@@ -1,5 +1,6 @@
 #Simple GPS Tracker with Mapbox
 
+![iPhone8 Map](https://github.com/Tonioverzeworld/simple-gps-tracker-react-native-mapbox/master/docs/react_native_mapbox_tracker001.png "Mapbox Tracker")
 In order to make operative the application you'll need :
 * A [Mapbox](https://www.mapbox.com) account
 * A Mapbox API Key
